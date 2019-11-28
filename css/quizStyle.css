@@ -1,0 +1,119 @@
+body {
+    background-color: #F4D03F;
+}
+.home{
+    left: 5%;
+    padding: 20px; 
+    position: absolute;
+    cursor: pointer
+}
+
+.quizTitle{
+    position: fixed;
+    left: 18%;
+    text-align: center;
+    width: 1000px;
+    font-weight: bold;
+    font-size: 11vmin;
+    color: #D53A33;
+    text-shadow: 0.5vmin 0.5vmin 0 #E79C10, -0.5vmin -0.5vmin 0 #1d9099;
+}
+
+.grid {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+    position: relative;
+}
+
+#quizContainer{top: 18%;}
+
+.grid h1 {
+    background-color: #F4D03F;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    text-shadow:-1px 0 #1d9099,0 1px #1d9099,1px 0 #1d9099,0 -1px #1d9099;
+    padding: 2px 0px;
+    border: 2px solid #cbcbcb;
+    border-radius: 50px;
+}
+
+#score {
+    position: relative;
+    bottom: 10px;
+    color: #5A6772;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+    color: #5A6772;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0{
+    position: relative;
+    left: 20%;
+    background-color: white;
+    font-size: 140px;
+    font-weight: bold;
+    color: blue;
+    border: none;
+    text-shadow: 0 1px 1px #c0c0c0, 0 2px 0 #a8a7a6, 0 3px 0 #8b8a89, 0 4px 0 #7d7b7a, 0 5px 0 #686766, 0 6px 3px #5f5e5d;
+}
+#btn1{
+    position: relative;
+    right: -50%;
+    background-color: white;
+    font-size: 140px;
+    font-weight: bold;
+    color: red;
+    border: none;
+    text-shadow: 0 1px 1px #c0c0c0, 0 2px 0 #a8a7a6, 0 3px 0 #8b8a89, 0 4px 0 #7d7b7a, 0 5px 0 #686766, 0 6px 3px #5f5e5d;
+}
+
+#btn0:hover, #btn1:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #F4D03F;
+}
+
+#btn0:focus, #btn1:focus{
+    outline: 0;
+}
+
+#progress {
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+.hide {
+    display: none;
+}
+#btnRe{  
+    cursor: pointer;
+    position: fixed;
+    bottom: 250px;
+    right: 650px;
+    background-color: white;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    border: white;
+    text-shadow: 0 1px 1px #c0c0c0, 0 2px 0 #a8a7a6, 0 3px 0 #8b8a89, 0 4px 0 #7d7b7a, 0 5px 0 #686766, 0 6px 3px #5f5e5d;
+    }
+
+#btnRe:hover{
+    color: #E74C3C;
+}

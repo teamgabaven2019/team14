@@ -1,4 +1,7 @@
-
+body{
+    padding: 0;
+    margin: 0;
+}
 .colorBtn{
     display: flex;
     justify-content: space-around;
@@ -41,9 +44,8 @@
         #d { left: 100px; top: 20px; } 
 
 .rightBtn {
-  line-height: 30px;
   text-align: center;
-  height: 100px;
+  height: 110px;
   width: 600px;
   cursor: pointer;
   border: none;
@@ -55,7 +57,7 @@
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: rgba(117, 187, 115, 0.65); 
+  background-color: rgb(137, 203, 136); 
   color: black; 
   border: 2px solid rgba(117, 187, 115, 0.65);
   position: relative;
@@ -73,4 +75,5 @@
         
          #e { left: 770px; top: -580px}
          #f { left: 95px; top: -350px}
+
         
