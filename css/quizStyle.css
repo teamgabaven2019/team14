@@ -66,8 +66,7 @@ body {
     position: relative;
     left: 20%;
     background-color: white;
-    font-size: 140px;
-    font-weight: bold;
+    font-size: 100px;
     color: blue;
     border: none;
     text-shadow: 0 1px 1px #c0c0c0, 0 2px 0 #a8a7a6, 0 3px 0 #8b8a89, 0 4px 0 #7d7b7a, 0 5px 0 #686766, 0 6px 3px #5f5e5d;
@@ -76,7 +75,7 @@ body {
     position: relative;
     right: -50%;
     background-color: white;
-    font-size: 140px;
+    font-size: 100px;
     font-weight: bold;
     color: red;
     border: none;

@@ -45,7 +45,7 @@ function showScores() {
 
 // クイズ問題
 var questions = [
-    new Question("1. こどもでもぜいきんはかかる", ["O", "X"], "O"),
+    new Question("1. こどもでもぜいきんはかかる", ["◯", "✕"], "◯ "),
     new Question("2. 消費税は日本で始まった", ["O", "X"], "X"),
     new Question("3. 日本の消費税は世界で一番税率が高い。", ["O", "X"], "X"),
     new Question("4. 税金は、だれでも自由に新しく作ることができる。", ["O", "X"],"X"),

@@ -18,30 +18,41 @@ body{
     font-weight: bold;
         }
 
-        #a { left: 800px; top: -250px; }
-        #b { left: 1130px; top: -280px; }
+        #a { left: 800px; top: -100px; }
+        #b { left: 1130px; top: -129px; }
         
 .colorBtn:active{
             transform: translateY(8px);
             color: #E74C3C;
         }
 
-        .title{
-            line-height: 10px;
-            font-family: 'M PLUS Rounded 1c', sans-serif;
-            font-weight: 900;
-            font-size: 55;
-            position: relative;
-            padding: 5px; 
-            text-shadow: 5px 5px 5px rgb(222, 217, 157);
+.title{
+    text-shadow: 0.3vmin 0.3vmin 0 #E79C10, -0.2vmin -0.2vmin 0 grey;
+    line-height: 10px;
+    font-weight: 900;
+    font-size: 60;
+    position: relative;
+    padding: 5px; 
+   
            }
         
-        #c { left: 40px; top: 40px; }
-        
-        .character{
-            position: relative
+    #c { left: 40px; top: 60px; }
+    #h { left: 500px; top: 110px;}
+
+.zeikin{
+    color: red;
+    font-size: 80;
+    position: relative;
+    text-shadow: 0.2vmin 0.2vmin 0 white, -0.2vmin -0.2vmin 0 grey;        
+        }        
+
+    #g { left: 160px; top: 130px}
+
+.character{
+        position: relative;
         }
-        #d { left: 100px; top: 20px; } 
+
+    #d { left: 130px; top: 170px; } 
 
 .rightBtn {
   text-align: center;
@@ -66,14 +77,14 @@ body{
 
 .rightBtn:hover {
   background-color: #75BB73;
-  color: white;
+  color: #efefef;
 }
 
 .rightBtn:active{
     font-size: 39.5px;
 }
         
-         #e { left: 770px; top: -580px}
-         #f { left: 95px; top: -350px}
+         #e { left: 770px; top: -425px}
+         #f { left: 95px; top: -200px}
 
         
