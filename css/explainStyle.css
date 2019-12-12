@@ -1,0 +1,10 @@
+body {
+    background-color: #F4D03F;
+    }
+
+.home{
+    left: 5%;
+    padding: 20px; 
+    position: absolute;
+    cursor: pointer
+    }
