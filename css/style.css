@@ -40,13 +40,15 @@ body{
     #h { left: 500px; top: 110px;}
 
 .zeikin{
-    color: red;
-    font-size: 80;
+    font-family: "Nico Moji";
+    color: #e83535;
+    font-weight: 100;
+    font-size: 90;
     position: relative;
     text-shadow: 0.2vmin 0.2vmin 0 white, -0.2vmin -0.2vmin 0 grey;        
         }        
 
-    #g { left: 160px; top: 130px}
+    #g { left: 200px; top: 120px}
 
 .character{
         position: relative;
