@@ -28,10 +28,10 @@ body {
     border-radius: 50px;
     border: 2px solid #cbcbcb;
     box-shadow: 10px 15px 5px #cbcbcb;
-    position: relative;
+    position: fixed;
+    top: 18%;
+    left: 20%
 }
-
-#quizContainer{top: 18%;}
 
 .grid h1 {
     background-color: #F4D03F;

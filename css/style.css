@@ -10,7 +10,7 @@ body{
     color: black;
     text-align: center;
     cursor: pointer;
-    position: relative;
+    position: fixed;
     transition: all 0.1s;
     text-shadow: 0px -6px rgba(181, 181, 181, 0.68);
     font-family: 'Odibee Sans', cursive;
@@ -18,8 +18,8 @@ body{
     font-weight: bold;
         }
 
-        #a { left: 800px; top: -100px; }
-        #b { left: 1130px; top: -129px; }
+        #a { left: 50%; top: 80%; }
+        #b { left: 70%; top: 80%; }
         
 .colorBtn:active{
             transform: translateY(8px);
@@ -31,30 +31,30 @@ body{
     line-height: 10px;
     font-weight: 900;
     font-size: 60;
-    position: relative;
+    position: fixed;
     padding: 5px; 
    
            }
         
-    #c { left: 40px; top: 60px; }
-    #h { left: 500px; top: 110px;}
+    #c { left: 3%; top: 7%; }
+    #h { left: 33%; top: 19%;}
 
 .zeikin{
     font-family: "Nico Moji";
     color: #e83535;
     font-weight: 100;
     font-size: 90;
-    position: relative;
+    position: fixed;
     text-shadow: 0.2vmin 0.2vmin 0 white, -0.2vmin -0.2vmin 0 grey;        
         }        
 
-    #g { left: 200px; top: 120px}
+    #g { left: 13%; top: 18%;}
 
 .character{
-        position: relative;
+        position: fixed;
         }
 
-    #d { left: 130px; top: 170px; } 
+    #d { left: 5%; top: 23%; } 
 
 .rightBtn {
   text-align: center;
@@ -73,7 +73,7 @@ body{
   background-color: rgb(137, 203, 136); 
   color: black; 
   border: 2px solid rgba(117, 187, 115, 0.65);
-  position: relative;
+  position: fixed;
   font-weight: 700;
 }
 
@@ -86,7 +86,7 @@ body{
     font-size: 39.5px;
 }
         
-         #e { left: 770px; top: -425px}
-         #f { left: 95px; top: -200px}
+         #e { left: 50%; top: 20%}
+         #f { left: 50%; top: 50%}
 
         
