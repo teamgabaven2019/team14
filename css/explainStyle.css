@@ -2,9 +2,104 @@ body {
     background-color: #F4D03F;
     }
 
+.taxContainer1{
+    background-color: #FDEBD0;
+    width: 200px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 50px 80px 50px 80px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #FDEBD0, 1px -1px 5px #FDEBD0, -1px 1px 5px #FDEBD0, -1px -1px 5px#FDEBD0,
+                -7px 7px 3px #FEF5E7, -7px -7px 3px #FEF5E7, 7px 7px 3px #FEF5E7, 7px -7px 3px #FEF5E7,
+                -12px 12px 3px white, -12px -12px 3px white, 12px 12px 3px white, 12px -12px 3px white,
+                15px 15px orange, 15px -15px orange, -15px 15px orange, -15px -15px orange;
+    position: fixed;
+    top: 16%;
+    left: 17%;
+}
+
+.taxContainer2{
+    background-color: #FDEBD0;
+    width: 450px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 50px 80px 50px 80px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #FDEBD0, 1px -1px 5px #FDEBD0, -1px 1px 5px #FDEBD0, -1px -1px 5px#FDEBD0,
+                -7px 7px 3px #FEF5E7, -7px -7px 3px #FEF5E7, 7px 7px 3px #FEF5E7, 7px -7px 3px #FEF5E7,
+                -12px 12px 3px white, -12px -12px 3px white, 12px 12px 3px white, 12px -12px 3px white,
+                15px 15px orange, 15px -15px orange, -15px 15px orange, -15px -15px orange;
+    position: fixed;
+    top: 16%;
+    left: 45%;
+}
+
 .home{
     left: 5%;
     padding: 20px; 
     position: absolute;
     cursor: pointer
     }
+
+.tax1{
+    position: fixed;
+    top: 5%;
+    left:24%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #1ABC9C;
+    text-shadow:-1px 1px #0B5345,-1px -1px #0B5345,1px 1px #0B5345, 1px -1px #0B5345, 2px 3px 3px #EC7063;
+}
+
+.tax2{
+    position: fixed;
+    top: 5%;
+    left:60%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #1ABC9C;
+    text-shadow: -1px 1px #0B5345,-1px -1px #0B5345,1px 1px #0B5345, 1px -1px #0B5345, 2px 3px 3px #EC7063;
+}
+
+.list1{
+    cursor: pointer;
+    list-style: none;
+    color: white;
+    padding: 60px 0px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: -1px 0 2px black,0 1px 2px black,1px 0 2px black,0 -1px 2px black;
+}
+
+.list1:hover{
+    color: #EC7063;
+}
+
+.list{
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 0px;
+    width: 200px;
+    text-align: center;
+    list-style: none;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 0 2px black,0 1px 2px black,1px 0 2px black,0 -1px 2px black; 
+}
+
+.rightList{
+    float: right;
+}
+
+.list:hover{
+    color: #EC7063;
+}
+
+.teacher{
+     position: fixed;
+}
+
+#teacher{top: 50%;left: 76%}
