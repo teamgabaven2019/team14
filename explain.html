@@ -10,24 +10,189 @@
 
     <body>
         <div class="taxContainer1">
-            <li class="list1">所得税</li>
-            <li class="list1">法人税</li>
-            <li class="list1">贈与税</li> 
+            <li onclick="pop1()" class="list1">所得税</li>        
+            <li onclick="pop2()" class="list1">法人税</li>
+            <li onclick="pop3()" class="list1">贈与税</li> 
         </div>
         
         <div class="taxContainer2">
-            <ul class="list">消費税</ul>
-            <ul class="list rightList">酒税</ul>
+            <ul onclick="pop4()" class="list">消費税</ul>
+            <ul onclick="pop5()" class="list rightList">酒税</ul>
                 <p>
-            <ul class="list">石油ガス税</ul>
-            <ul class="list rightList">航空機燃料税</ul>
+            <ul onclick="pop6()" class="list">石油ガス税</ul>
+            <ul onclick="pop7()" class="list rightList">航空機燃料税</ul>
                 <p>
-            <ul class="list">自動車重量税
+            <ul onclick="pop8()" class="list">自動車重量税
             </ul>
-            <ul class="list rightList">関税</ul>
+            <ul onclick="pop9()" class="list rightList">関税</ul>
                 <p>
-            <ul class="list">とん税</ul>
+            <ul onclick="pop10()" class="list">とん税</ul>
         </div>
+        
+            <!-- 1 所得税 Popup -->             
+                <div id="box1">
+                <h1>所得税の説明</h1>    
+                <a onclick="pop1()" class="close">Close</a>
+                </div> 
+
+                <script type="text/javascript">
+                var c = 0;
+                function pop1() {
+                    if(c == 0){            document.getElementById("box1").style.display = "block";
+                        c = 1;
+                    }else{document.getElementById("box1").style.display ="none";
+                         c = 0;}
+                }
+                </script>
+
+            <!-- 2 法人税 Popup -->             
+                <div id="box2">
+                <h2>法人税の説明</h2>    
+                <a onclick="pop2()" class="close">Close</a>
+                </div> 
+
+                <script type="text/javascript">
+                var c = 0;
+                function pop2() {
+                    if(c == 0){            document.getElementById("box2").style.display = "block";
+                        c = 1;
+                    }else{document.getElementById("box2").style.display ="none";
+                         c = 0;}
+                }
+                </script>
+        
+            <!-- 3 贈与税 Popup -->             
+                <div id="box3">
+                <h3>贈与税の説明</h3>    
+                <a onclick="pop3()" class="close">Close</a>
+                </div> 
+
+                <script type="text/javascript">
+                var c = 0;
+                function pop3() {
+                    if(c == 0){            document.getElementById("box3").style.display = "block";
+                        c = 1;
+                    }else{document.getElementById("box3").style.display ="none";
+                         c = 0;}
+                }
+                </script>
+        
+            <!-- 4 消費税 Popup -->             
+                <div id="box4">
+                <h4>消費税の説明</h4>    
+                <a onclick="pop4()" class="close">Close</a>
+                </div> 
+
+                <script type="text/javascript">
+                var c = 0;
+                function pop4() {
+                    if(c == 0){            document.getElementById("box4").style.display = "block";
+                        c = 1;
+                    }else{document.getElementById("box4").style.display ="none";
+                         c = 0;}
+                }
+                </script>
+        
+            <!-- 5 酒税 Popup -->             
+                <div id="box5">
+                <h5>酒税の説明</h5>    
+                <a onclick="pop5()" class="close">Close</a>
+                </div> 
+
+                <script type="text/javascript">
+                var c = 0;
+                function pop5() {
+                    if(c == 0){            document.getElementById("box5").style.display = "block";
+                        c = 1;
+                    }else{document.getElementById("box5").style.display ="none";
+                         c = 0;}
+                }
+                </script>        
+        
+            <!-- 6 石油ガス税 Popup -->             
+                <div id="box6">
+                <h6>石油ガス税の説明</h6>    
+                <a onclick="pop6()" class="close">Close</a>
+                </div> 
+
+                <script type="text/javascript">
+                var c = 0;
+                function pop6() {
+                    if(c == 0){            document.getElementById("box6").style.display = "block";
+                        c = 1;
+                    }else{document.getElementById("box6").style.display ="none";
+                         c = 0;}
+                }
+                </script>        
+        
+            <!-- 7 航空機燃料税 Popup -->             
+                <div id="box7">
+                <h7>法人税の説明</h7>    
+                <a onclick="pop7()" class="close">Close</a>
+                </div> 
+
+                <script type="text/javascript">
+                var c = 0;
+                function pop7() {
+                    if(c == 0){            document.getElementById("box7").style.display = "block";
+                        c = 1;
+                    }else{document.getElementById("box7").style.display ="none";
+                         c = 0;}
+                }
+                </script> 
+        
+            <!-- 8 自動車重量税 Popup -->             
+                <div id="box8">
+                <h8>自動車重量税の説明</h8>    
+                <a onclick="pop8()" class="close">Close</a>
+                </div> 
+
+                <script type="text/javascript">
+                var c = 0;
+                function pop8() {
+                    if(c == 0){            document.getElementById("box8").style.display = "block";
+                        c = 1;
+                    }else{document.getElementById("box8").style.display ="none";
+                         c = 0;}
+                }
+                </script>        
+        
+            <!-- 9 関税 Popup -->             
+                <div id="box9">
+                <h2>関税の説明</h2>    
+                <a onclick="pop9()" class="close">Close</a>
+                </div> 
+
+                <script type="text/javascript">
+                var c = 0;
+                function pop9() {
+                    if(c == 0){            document.getElementById("box9").style.display = "block";
+                        c = 1;
+                    }else{document.getElementById("box9").style.display ="none";
+                         c = 0;}
+                }
+                </script>        
+        
+            <!-- 10 とん税 Popup -->             
+                <div id="box10">
+                <h10>とん税の説明</h10>    
+                <a onclick="pop10()" class="close">Close</a>
+                </div> 
+
+                <script type="text/javascript">
+                var c = 0;
+                function pop10() {
+                    if(c == 0){            document.getElementById("box10").style.display = "block";
+                        c = 1;
+                    }else{document.getElementById("box10").style.display ="none";
+                         c = 0;}
+                }
+                </script>        
+        
+        
+        
+        
+        
         
         <a href="firstpage.html" class="home">
         <img src="https://image.flaticon.com/icons/svg/465/465226.svg" width="75">
@@ -39,6 +204,9 @@
         <a class="teacher" id="teacher">
         <img src="https://image.flaticon.com/icons/png/512/1049/premium/1049973.png" width="400">
             </a>
+        
+
+ 
         
     
     </body>
