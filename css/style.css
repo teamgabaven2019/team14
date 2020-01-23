@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background: linear-gradient(to bottom right, #F4D03F 30%, #ff99cc 100%) 
 }
 .colorBtn{
     display: flex;
@@ -36,41 +37,42 @@ body{
    
            }
         
-    #c { left: 3%; top: 7%; }
-    #h { left: 33%; top: 19%;}
+    #c { left: 3%; top: 10%; }
+    #h { left: 33%; top: 21%;}
 
 .zeikin{
-    font-family: "Nico Moji";
     color: #e83535;
     font-weight: 100;
-    font-size: 90;
-    position: fixed;
-    text-shadow: 0.2vmin 0.2vmin 0 white, -0.2vmin -0.2vmin 0 grey;        
-        }        
+    font-size: 70;
+    font-weight: bolder;
+    position: fixed;   
+        } 
 
-    #g { left: 13%; top: 18%;}
+    #g { left: 13%; top: 21%;}
 
 .character{
         position: fixed;
         }
 
-    #d { left: 5%; top: 23%; } 
+    #d { left: 10%; top: 30%; } 
 
 .rightBtn {
+  font-family: 'Kosugi Maru', sans-serif;
+  border-radius: 30px;
   text-align: center;
   height: 110px;
   width: 600px;
+  padding: 30px 15px 0px;
   cursor: pointer;
   border: none;
   color: white;
-  padding: 16px 32px;
   text-decoration: none;
   display: inline-block;
   font-size: 40px;
-  margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: rgb(137, 203, 136); 
+  background-color:
+  rgba(117, 187, 115, 0.74);
   color: black; 
   border: 2px solid rgba(117, 187, 115, 0.65);
   position: fixed;
