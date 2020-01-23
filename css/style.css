@@ -13,7 +13,6 @@ body{
     position: fixed;
     transition: all 0.1s;
     text-shadow: 0px -6px rgba(181, 181, 181, 0.68);
-    font-family: 'Odibee Sans', cursive;
     font-size: 70px;
     font-weight: bold;
         }
@@ -57,6 +56,7 @@ body{
     #d { left: 5%; top: 23%; } 
 
 .rightBtn {
+  font-family: 'Kosugi Maru', sans-serif;
   text-align: center;
   height: 110px;
   width: 600px;
@@ -70,9 +70,10 @@ body{
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: rgb(137, 203, 136); 
+  background-color: rgba(137, 203, 136, 0.79); 
   color: black; 
   border: 2px solid rgba(117, 187, 115, 0.65);
+  border-radius: 30px;
   position: fixed;
   font-weight: 700;
 }
